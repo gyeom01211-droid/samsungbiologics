@@ -1,0 +1,832 @@
+#wrap{
+    width: 100%;
+}
+
+#header{
+   
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     /* display: none; */
+}
+#header .logo{
+    margin-top: 50px;
+width:100px;
+height:100px;
+}
+#nav .menu{
+    display: flex;
+    gap: 50px;
+    
+}
+#nav .menu a{
+    font-size: 20px;
+    /* font-size: ; */
+    color: #333;
+}
+#info{
+    transform:translateY(-10px);
+}
+#info .info_r{
+    display: flex;
+    gap: 10px;
+}
+#info .info_r a{
+    font-size: 16px;
+    color: #333;
+    font-weight: 200;
+}
+/* header end */
+#main{}
+ #main_img{
+    width: 100%;
+    height: 595px;
+    background: url(../images/Mask_group.png) no-repeat 50% 0px;
+    background-size: cover;
+    position:relative;
+} 
+ #find{
+        position:absolute;
+        top:312px;
+        left:154px;
+        /* margin-left: 160px; */
+    }
+    #find h2{
+        color:#23398C;
+        font-size: 48px;
+        /* font-size:3vw ; */
+    }
+
+    #find p{
+        margin: -20px auto;
+        font-size: 18px;
+        /* font-size: 1vw; */
+    }
+/* 콘텐츠영역 */
+
+#contents{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+} 
+#our_people{
+    margin-top: 190px;
+    width:100%;
+    height:176px;
+}
+#our_people span{
+    font-size: 24px;
+    color:#23398C;
+    font-weight:700;
+}
+#our_people h3{
+    margin-top:30px;
+    font-size: 48px;
+    color:#000;
+    font-weight: 900;
+}
+#our_people p{
+    margin-top: 40px;
+    font-size: 18px;
+}
+/* text_box end */
+
+
+#behavior{
+    margin-top: 180px;
+    width: 100%;
+}
+#behavior .behavior_h{
+    width: 100%;
+    height: 110px;
+}
+#behavior .behavior_h h3{ 
+    font-size: 48px;
+    margin-bottom: 40px;
+    /* margin-left: 160px; */
+}
+#behavior .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;  
+}
+#behavior .list li{
+    width:787px;
+    height:463px;
+    border-radius:20px;
+    overflow:hidden;
+    position:relative; 
+}
+#behavior li b{
+    position: absolute;
+    left:100px;
+    top:300px;
+    font-size: 32px;
+    font-weight: 700;
+    z-index: 4;
+    color:#fff;
+}
+#behavior li p{
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    left:100px;
+    top:360px;
+    z-index: 4;
+}
+#behavior li .box{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+    width:787px;
+    height:463px;
+    background-color:rgba(0,0,0,0.2);
+}
+
+
+#our_way{
+    margin-top: 180px;
+    width: 100%;
+}
+#our_way h3{
+    margin-top: 100px;
+    font-size: 48px;
+}
+#our_way p{
+    margin:25px 0 50px 0;
+    font-size: 16px;
+    color:#333;
+}
+#our_way .way{
+    width:270px;
+    height:45px;
+    border:2px solid #23398C;
+    line-height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    align-content: center;
+    padding-left:20px;
+    box-sizing: border-box;
+    color:#23398C;
+}
+#our_way .way img{
+    float:right;
+    margin-right: 15px;
+}
+
+
+/* box 시작 */
+#self_d{
+    margin-top: 180px;
+    width: 100%;
+     height: 1600px;
+}
+#self_d .self_d_h{
+    width: 100%;
+    height: 150px;
+    
+}
+#self_d .self_d_h h3{
+    font-size: 48px;
+    color: #000; 
+}
+#self_d .self_d_h p{
+   margin-top: 20px;
+   font-size: 16px;
+}
+#self_d .box{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#self_d .box{
+    margin-top: 100px;
+    margin-left: 180px;
+    width: 1200px;
+    /* height:1200px; */
+}
+#self_d .box li{
+    float: left;
+    width: 50%;
+    height: 600px;
+    box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+#self_d .box li:nth-child(1){
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#self_d .box li:nth-child(2){
+    border-bottom: 1px solid #000;
+}
+#self_d .box li:nth-child(3){
+    border-right: 1px solid #000;
+}
+/*
+#self_d .box li{
+    width: 50%;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   
+}
+ #self_d .box li::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    width: 1px;
+    height: 800px;
+    transform: translateX(-50%);
+    background-color: #ccc;
+}
+#self_d .box li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    transform: translateY(-50%);
+    background-color: #ccc;
+} */
+#self_d .box img{}
+#self_d .box h5{
+    font-size: 32px;
+    color: #23398C;
+}
+#self_d .box p{}
+
+
+
+/* 채용절차 시작 */
+#careers{
+    margin-top: 60px;
+    max-width:1600px;
+    height: auto;
+    padding-bottom: 150px;
+    position: relative;
+}
+#careers .careers_h{
+    width:100%;
+    height: 110px;
+}
+#careers .careers_h b{
+    color: #23398C;
+    /* font-size: 24px; */
+    font-size: 1.5vw;
+    margin-top: 120px;
+}
+#careers .careers_h h3{
+    margin-top: 30px;
+    /* font-size: 48px; */
+    font-size: 3vw;
+    color: #000;
+    font-weight: bold;
+}
+#careers .list{
+    /* padding: 200px 0; */
+    /* background-color: aqua; */
+    /* width:1055px; */
+    width:66%;
+    height:220px;
+    margin:100px auto;
+}
+#careers .list h2{
+    width: 100%;
+    text-align: center;
+    /* font-size: 48px; */
+    font-size: 3vw;
+    padding: 40px 0;
+}
+#careers .list .step_bar{
+    margin: 0 auto;
+    width: 1000px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#careers .step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* font-size: 27px; */
+    font-size: 1.5vw;  
+    width: 120px;
+    height: 140px;
+}
+#careers .step p{
+  color: #000;
+  margin-bottom: 40px;
+}
+#careers .step span{
+   color: #333; 
+}
+#careers .list .step_circle{
+    position: relative;
+    top:-30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+#careers .line{
+    position: relative;
+    top:-80px;
+    left: 50%;
+    margin-left: -425px;
+    width: 850px;
+    height: 1px;
+    background-color: #333;
+}
+/* #careers .line .step::after{
+    content: "";
+    position:relative;
+    top: 0px;
+    left: 0px;
+    width: 900px;
+    height: 1px;
+    background-color: #ba1111;
+} */
+/* icon 시작 */
+#careers .icon{
+    position: relative;
+    left:50%;
+    margin-left: -700px;
+    width:1500px;
+    height:367px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+#careers .icon p:first-child{
+    color:#fff;
+}
+#careers .icon li{
+    /* width:367px; */
+    width:23vw;
+    height:367px;
+    border-radius: 15px;
+    background-color: #F2F3FB;
+    border:2px solid #23398C;
+    text-align: center;
+    padding-top:50px;
+    box-sizing: border-box;
+   
+}
+#careers .icon li:first-child{
+    background-color: #23398C;
+    color:#fff;
+}
+/* section div #more{
+    position: absolute;
+    top:150px;
+    /* right:300px; */
+    /* right:19%;
+    color:#000; 
+    font-weight: 700;*/
+    /* font-size: 27px; */
+    /* font-size: 1.6vw;
+    margin-top: 102px; }*/
+
+
+
+#careers .careers_f{
+    margin: 0 auto;
+    width: 1500px; 
+    height: 200px; 
+}
+#careers .careers_f a{
+    float: right;
+    margin: 100px 100px 0 0; 
+    font-size: 20px;
+}
+
+hr{
+    width:1600px;
+    background-color: #23398C;
+    border-bottom: 10px solid #23398C;
+  
+}
+
+/* footer시작 */
+#footer .footer_top{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#footer .footer_nav{
+    margin: 0 auto;
+    padding:40px 0;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .footer_l{
+    display: flex;
+    
+}
+#footer .footer_l li::after{
+    content: "|";
+    width:1px;
+    height:20px;
+    padding: 0 20px;
+
+}
+#footer .footer_l li:last-child::after{
+    content: "";
+}
+#footer .footer_r{
+    display: flex;
+    gap: 20px;
+}
+#footer .footer_r li img{
+    width: 24px;
+    height: 24px;
+}
+#footer .footer_bottom{
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .footer_bottom_icon{
+    display: flex;
+    gap: 16px;
+}
+.footer_bottom_icon li:nth-child(1) img{
+    width:58px;
+    height:22px;
+}
+
+.footer_bottom_icon li:nth-child(2) img{
+    width:36px;
+    height:36px;
+}
+
+.footer_bottom_icon li:nth-child(3) img{
+    width:48px;
+    height: 36px;
+}
+
+
+
+@media (max-width:1600px){
+    /* main text */
+    #find{
+        position:absolute;
+        top:312px;
+        left:8%;
+        /* margin-left: 160px; */
+    }
+
+    #contents{
+    margin: 0 auto;
+    width: 90%;
+    /* max-width: 1600px; */
+    }
+    
+    #our_people{
+        padding:0 20px;
+        margin-top: 190px;
+        /* width:900px; */
+        width: 100%;
+        height:176px;
+    }
+    #our_people span{
+        font-size: 24px;
+        /* font-size: 1.5vw; */
+        color:#23398C;
+        font-weight:700;
+    }
+    #our_people h3{
+        font-size: 48px;
+        margin-top:30px;
+        /* font-size: 3vw; */
+        color:#000;
+        font-weight: 900;
+    }
+    #our_people p{
+        margin-top: 40px;
+        font-size: 18px;
+        /* font-size: 1vw; */
+    }
+
+    #behavior{
+        margin-top: 180px;
+        width: 100%;
+    }
+    #behavior .behavior_h{
+        width: 100%;
+        height: 110px;
+    }
+    #behavior .behavior_h h3{ 
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+    #behavior .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 30px;  
+    }
+    #behavior .list li{
+        /* width:787px; */
+        width:49%;
+        height:463px;
+        border-radius:20px;
+        overflow:hidden;
+        position:relative; 
+    }
+    #behavior li b{
+        position: absolute;
+        /* left:100px; */
+        left:5%;
+        top:300px;
+        /* font-size: 32px; */
+        font-size: 2vw;
+        font-weight: 700;
+        z-index: 4;
+        color:#fff;
+    }
+    #behavior li p{
+        font-size: 18px;
+        color: #fff;
+        position: absolute;
+        /* left:100px; */
+        left:5%;
+        top:360px;
+        z-index: 4;
+    }
+    #behavior li .box{
+        position:absolute;
+        top:0;
+        left:0;
+        z-index: 2;
+        /* width:787px; */
+        width:100%;
+        height:463px;
+        background-color:rgba(0,0,0,0.2);
+    }
+   
+
+    #self_d{
+        margin-top: 180px;
+        width: 100%;
+        height: 600px;
+    }
+    #self_d .box{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin:0 auto;
+    }
+    #self_d .box{
+        margin-top: 100px;
+        margin-left: 180px;
+        width: 75%;
+        height:75vw;
+        margin:0 auto;
+    }
+    #self_d .box li{
+        float: left;
+        width: 50%;
+        height: 37.5vw;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #self_d .box li:nth-child(1){
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000;
+    }
+    #self_d .box li:nth-child(2){
+        border-bottom: 1px solid #000;
+    }
+    #self_d .box li:nth-child(3){
+        border-right: 1px solid #000;
+    }
+
+    #self_d .box img{
+        width:11vw;
+    }
+    #self_d .box h5{
+        /* font-size: 32px; */
+        font-size: 2vw;
+        color: #23398C;
+    }
+    #self_d .box p{
+        /* font-size: 18px; */
+        font-size: 2vw;
+    }
+
+
+    #careers{
+            margin-top: 60px;
+            max-width:1600px;
+            height: auto;
+            padding-bottom: 150px;
+            position: relative;
+        }
+        #careers .careers_h{
+            width:100%;
+            height: 100px;
+            margin-top: 900px;
+        }
+        #careers .careers_h b{
+            color: #23398C;
+            font-size: 24px;
+            margin-top: 120px;
+        }
+        #careers .careers_h h3{
+            margin-top: 30px;
+            font-size: 48px;
+            color: #000;
+            font-weight: bold;
+        }
+        #careers .list{
+            /* padding: 200px 0; */
+            /* background-color: aqua; */
+            /* width:1055px; */
+            width:66%;
+            height:220px;
+            margin:100px auto;
+        }
+        #careers .list h2{
+            width: 100%;
+            text-align: center;
+            /* font-size: 48px; */
+            font-size: 3vw;
+            padding: 40px 0;
+        }
+        #careers .list .step_bar{
+            margin: 0 auto;
+            width: 1000px;
+            height: 180px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #careers .step{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            /* font-size: 27px; */
+            font-size: 1.5vw;  
+            width: 120px;
+            height: 140px;
+        }
+        #careers .step p{
+        color: #000;
+        margin-bottom: 40px;
+        }
+        #careers .step span{
+        color: #333; 
+        }
+        #careers .list .step_circle{
+            position: relative;
+            top:-30px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10;
+        }
+        #careers .line{
+            position: relative;
+            top:-80px;
+            /* left: 70px; */
+            left:4vw;
+            /* margin-left: -425px; */
+            /* margin-left: -340px; */
+            margin:0 auto;
+            /* width: 850px; */
+            height: 1px;
+            background-color: #333;
+            margin-left: ;
+        }
+        /* #careers .line .step::after{
+            content: "";
+            position:relative;
+            top: 0px;
+            left: 0px;
+            width: 900px;
+            height: 1px;
+            background-color: #ba1111;
+        } */
+        /* icon 시작 */
+        #careers .icon{
+            position: relative;
+            left:50%;
+            margin-left: -700px;
+            width:1500px;
+            height:367px;
+            display: flex;
+            justify-content: space-evenly; 
+        }
+        #careers .icon p:first-child{
+            color:#fff;
+        }
+        #careers .icon li{
+            /* width:367px; */
+            width:23vw;
+            height:367px;
+            border-radius: 15px;
+            background-color: #F2F3FB;
+            border:2px solid #23398C;
+            text-align: center;
+            padding-top:50px;
+            box-sizing: border-box;
+        
+        }
+        #careers .icon li:first-child{
+            background-color: #23398C;
+            color:#fff;
+        }
+        /* section div #more{
+            position: absolute;
+            top:150px;
+            /* right:300px; */
+            /* right:19%;
+            color:#000; 
+            font-weight: 700;*/
+            /* font-size: 27px; */
+            /* font-size: 1.6vw;
+            margin-top: 102px; }*/
+
+
+
+        #careers .careers_f{
+            margin: 0 auto;
+            width: 1500px; 
+            height: 200px; 
+        }
+        #careers .careers_f a{
+            float: right;
+            margin: 100px 100px 0 0; 
+            font-size: 20px;
+        }
+
+        hr{
+            width:1600px;
+            background-color: #23398C;
+            border-bottom: 10px solid #23398C;
+        
+        }
+        @media (max-width:1200px){
+            #careers .line{
+            position: relative;
+            top:-80px;
+            /* left: 70px; */
+            left:4vw;
+            /* margin-left: -425px; */
+            /* margin-left: -340px; */
+            margin:0 auto;
+            /* width: 850px; */
+            height: 1px;
+            background-color: #333;
+            
+        }
+        #careers .list .step_bar{
+            width: 100%;
+        }
+        }
+#careers .step_bar{
+    display:flex;
+    justify-content:center;
+
+    gap:clamp(20px, 8vw, 120px);
+}
+}
